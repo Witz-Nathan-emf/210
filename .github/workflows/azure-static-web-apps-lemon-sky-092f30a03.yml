@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'todo-app/src/frontend/**'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
